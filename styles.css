@@ -14,18 +14,18 @@
     width: 100%;
     float: left;
     margin-top: 5px;
-    background: #e7e7e7;
+    background: #b9d6c0;
     border-radius: 10px;
 }
 
 .skill div span {
-    background: #2963a7;
+    background: #65e3b9;
     height: 5px;
     float: left;
 }
 
 div[role="progressbar"] {
-    color: #92b9ef;
+    color: #55835f;
     margin-left: 100px;
     margin-bottom: 20px;
     width: 100px;
@@ -36,7 +36,7 @@ div[role="progressbar"] {
     place-items: center;
     display: grid;
     --pgPercentage: var(--value);
-    background: radial-gradient(closest-side, black 80%, transparent 0 99.9%, black 0), conic-gradient(#2e83c4 calc(var(--pgPercentage) * 1%), #ffe6af 0);
+    background: radial-gradient(closest-side, black 80%, transparent 0 99.9%, black 0), conic-gradient(#6fcea3 calc(var(--pgPercentage) * 1%), #ffffff 0);
 }
 
 
@@ -58,7 +58,7 @@ div[role="progressbar"] {
     width: 100%;
     float: left;
     padding: 30px 10px;
-    background: #4386b3;
+    background: #3d5e44;
     margin-bottom: 20px;
 }
 
@@ -113,7 +113,7 @@ footer {
 }
 
 .contact form button {
-    background: rgb(88, 88, 255);
+    background: rgb(95, 126, 92);
     color: white;
     font-size: 1.3rem;
 }
@@ -155,7 +155,7 @@ footer {
 }
 
 .header h1 {
-    font-size: 6rem;
+    font-size: 3rem;
     text-align: center;
     color: white;
     padding: 8rem 0 2rem 0;
